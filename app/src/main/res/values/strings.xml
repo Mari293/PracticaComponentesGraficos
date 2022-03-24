@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Registro de estudiantes</string>
+    <string name="nameStudent">Nombre completo</string>
+    <string name="IDStudent">Documento</string>
+    <string name="ageStudent">Edad</string>
+    <string name="phoneStudent">Telefono</string>
+    <string name="addressStudent">Dirección</string>
+    <string name="subject1">Materia 1</string>
+    <string name="subject2">Materia 2</string>
+    <string name="subject3">Materia 3</string>
+    <string name="subject4">Materia 4</string>
+    <string name="subject5">Materia 5</string>
+    <string name="grade">Nota final</string>
+    <string name="btnRegisterStudent">Registrar</string>
+    <string name="titleWelcome">Bienvenido</string>
+    <string name="btnRegister">Registro</string>
+    <string name="btnStatistics">Estadisticas</string>
+    <string name="btnHelp">Ayuda</string>
+    <string name="nameSchool">Mis pequeños Saltamontes</string>
+    <string name="textHelp">Está aplicación te simplificará la manera de hallar el promedio de cada estudiante y te ayudará a tener de manera mucho más organizada la cantidad de estudiantes que ganan, pierden o pueden recuperar el año, ingresando sus datos personales, nombre de las materias que desea registrar con sus respectivas notas.</string>
+    <string name="titleStatistics">Estadisticas Estudiantes</string>
+    <string name="titleRegister">Registro de Estudiantes</string>
+    <string name="subTitleHelp">Ayuda</string>
+    <string name="subTitle2Register">Materias a registrar</string>
+    <string name="titleInfoStudent">Información del Estudiante</string>
+
+</resources>
