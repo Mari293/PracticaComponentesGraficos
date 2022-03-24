@@ -17,7 +17,7 @@
     <string name="btnStatistics">Estadisticas</string>
     <string name="btnHelp">Ayuda</string>
     <string name="nameSchool">Mis pequeños Saltamontes</string>
-    <string name="textHelp">Está aplicación te simplificará la manera de hallar el promedio de cada estudiante y te ayudará a tener de manera mucho más organizada la cantidad de estudiantes que ganan, pierden o pueden recuperar el año, ingresando sus datos personales, nombre de las materias que desea registrar con sus respectivas notas.</string>
+    <string name="textHelp">Está aplicación te simplificará la manera de hallar el promedio de cada estudiante y te ayudará a tener de manera mucho más organizada la cantidad de estudiantes que ganan, pierden o pueden recuperar el periodo, ingresando sus datos personales, nombre de las materias que desea registrar con sus respectivas notas.</string>
     <string name="titleStatistics">Estadisticas Estudiantes</string>
     <string name="titleRegister">Registro de Estudiantes</string>
     <string name="subTitleHelp">Ayuda</string>

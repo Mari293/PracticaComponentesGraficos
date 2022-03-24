@@ -1,7 +1,9 @@
 package com.example.registrodeestudiantes
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 
 class ShowStudentActivity : AppCompatActivity() {
@@ -11,6 +13,8 @@ class ShowStudentActivity : AppCompatActivity() {
 
         val information = findViewById<TextView>(R.id.infoStudent)
         var status = findViewById<TextView>(R.id.statusStudent)
+        val back: ImageView =findViewById(R.id.imgBack)
+        back.setOnClickListener{onClick()}
         var miBundle:Bundle?=this.intent.extras
 
         if(miBundle!=null){
@@ -32,5 +36,10 @@ class ShowStudentActivity : AppCompatActivity() {
         else{
             status.text = "Pierde el periodo, sin posibilidad de recuperar"
         }
+    }
+
+    private fun onClick() {
+        val intent = Intent(this,StatisticsActivity::class.java)
+        startActivity(intent)
     }
 }

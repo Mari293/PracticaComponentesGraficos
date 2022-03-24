@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RegistroDeEstudiantes">
         <activity
+            android:name=".StatisticsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ShowStudentActivity"
             android:exported="false" />
         <activity
-            android:name=".Statistics"
+            android:name=".StatisticsActivity"
             android:exported="false" />
         <activity
             android:name=".HelpActivity"

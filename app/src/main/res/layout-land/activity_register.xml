@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="12dp"
+                android:text="@string/titleRegister"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subTitleRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="50dp"
+                android:text="Datos básicos"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_grey"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/txtID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="400dp"
+                android:ems="10"
+                android:hint="@string/IDStudent"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/txtFullName"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="185dp"
+                android:layout_marginRight="400dp"
+                android:ems="10"
+                android:hint="@string/nameStudent"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/txtAge"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginRight="400dp"
+                android:ems="10"
+                android:hint="@string/ageStudent"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="295dp"
+                android:layout_marginRight="400dp"
+                android:ems="10"
+                android:hint="@string/phoneStudent"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginRight="400dp"
+                android:ems="10"
+                android:hint="@string/addressStudent"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <TextView
+                android:id="@+id/subTitle2Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="380dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="50dp"
+                android:text="@string/subTitle2Register"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_grey"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/txtSubject1"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="374dp"
+                android:layout_marginTop="129dp"
+                android:layout_marginRight="165dp"
+                android:ems="10"
+                android:hint="@string/subject1"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/txtGrade1"
+                android:layout_width="91dp"
+                android:layout_height="64dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="114dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="numberDecimal"
+                android:textColorHint="#757575" />
+
+            <EditText
+                android:id="@+id/txtSubject2"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="374dp"
+                android:layout_marginTop="184dp"
+                android:layout_marginRight="160dp"
+                android:ems="10"
+                android:hint="@string/subject2"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/txtGrade2"
+                android:layout_width="91dp"
+                android:layout_height="64dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="numberDecimal"
+                android:textColorHint="#757575" />
+
+            <EditText
+                android:id="@+id/txtSubject3"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="374dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginRight="160dp"
+                android:ems="10"
+                android:hint="@string/subject3"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+
+            <EditText
+                android:id="@+id/txtGrade3"
+                android:layout_width="91dp"
+                android:layout_height="64dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="225dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="numberDecimal"
+                android:textColorHint="#757575" />
+
+            <EditText
+                android:id="@+id/txtSubject4"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="374dp"
+                android:layout_marginTop="295dp"
+                android:layout_marginRight="160dp"
+                android:ems="10"
+                android:hint="@string/subject4"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/txtGrade4"
+                android:layout_width="91dp"
+                android:layout_height="64dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="275dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="numberDecimal"
+                android:textColorHint="#757575" />
+
+            <EditText
+                android:id="@+id/txtSubject5"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="374dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginRight="160dp"
+                android:ems="10"
+                android:hint="@string/subject5"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/colorHint" />
+
+            <EditText
+                android:id="@+id/txtGrade5"
+                android:layout_width="91dp"
+                android:layout_height="64dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="330dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/colorHint" />
+
+            <Button
+                android:id="@+id/btnRegisterStudent"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="410dp"
+                android:layout_marginEnd="190dp"
+                android:text="@string/btnRegisterStudent" />
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="46dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/arrow_back" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

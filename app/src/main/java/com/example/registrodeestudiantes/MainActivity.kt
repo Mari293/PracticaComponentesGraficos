@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this,"Aún no hay registros", Toast.LENGTH_SHORT).show()
                 }
                 else{
-                    val intent = Intent(this,Statistics::class.java)
+                    val intent = Intent(this,StatisticsActivity::class.java)
                     startActivity(intent)
                 }
             }
